@@ -55,13 +55,15 @@
             this.добавиПремахниУчителToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.добавиПремахниToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.промениЧасЗаКонсултацияToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.промениКласенРъководителНаКласToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.промениToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.смениФайлСПрограмаНаУчителиToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.смениФайлСПрограмаНаКласовеToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.button2 = new System.Windows.Forms.Button();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
-            this.промениКласенРъководителНаКласToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.toolStrip1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // button1
@@ -121,7 +123,7 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F);
-            this.label5.Location = new System.Drawing.Point(16, 71);
+            this.label5.Location = new System.Drawing.Point(19, 44);
             this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(129, 16);
@@ -132,7 +134,7 @@
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F);
-            this.label6.Location = new System.Drawing.Point(16, 44);
+            this.label6.Location = new System.Drawing.Point(17, 71);
             this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(327, 16);
@@ -303,6 +305,13 @@
             this.промениЧасЗаКонсултацияToolStripMenuItem.Text = "Промени час за консултация ";
             this.промениЧасЗаКонсултацияToolStripMenuItem.Click += new System.EventHandler(this.changeConsultationToolStripMenuItem_Click);
             // 
+            // промениКласенРъководителНаКласToolStripMenuItem
+            // 
+            this.промениКласенРъководителНаКласToolStripMenuItem.Name = "промениКласенРъководителНаКласToolStripMenuItem";
+            this.промениКласенРъководителНаКласToolStripMenuItem.Size = new System.Drawing.Size(285, 22);
+            this.промениКласенРъководителНаКласToolStripMenuItem.Text = "Промени класен ръководител на клас";
+            this.промениКласенРъководителНаКласToolStripMenuItem.Click += new System.EventHandler(this.changeClassTeacherToolStripMenuItem_Click);
+            // 
             // промениToolStripMenuItem
             // 
             this.промениToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -340,12 +349,15 @@
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
-            // промениКласенРъководителНаКласToolStripMenuItem
+            // pictureBox1
             // 
-            this.промениКласенРъководителНаКласToolStripMenuItem.Name = "промениКласенРъководителНаКласToolStripMenuItem";
-            this.промениКласенРъководителНаКласToolStripMenuItem.Size = new System.Drawing.Size(285, 22);
-            this.промениКласенРъководителНаКласToolStripMenuItem.Text = "Промени класен ръководител на клас";
-            this.промениКласенРъководителНаКласToolStripMenuItem.Click += new System.EventHandler(this.changeClassTeacherToolStripMenuItem_Click);
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(358, 9);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(55, 55);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.pictureBox1.TabIndex = 21;
+            this.pictureBox1.TabStop = false;
             // 
             // Main
             // 
@@ -353,6 +365,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.ClientSize = new System.Drawing.Size(423, 233);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.toolStrip1);
@@ -373,6 +386,7 @@
             this.Load += new System.EventHandler(this.Form1_Load);
             this.toolStrip1.ResumeLayout(false);
             this.toolStrip1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -411,6 +425,7 @@
         private System.Windows.Forms.ToolStripMenuItem смениФайлСПрограмаНаКласовеToolStripMenuItem;
         private System.Windows.Forms.OpenFileDialog openFileDialog1;
         private System.Windows.Forms.ToolStripMenuItem промениКласенРъководителНаКласToolStripMenuItem;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
 
