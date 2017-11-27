@@ -1,15 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
-
-namespace NoNameYet
+﻿namespace SchoolAssistant
 {
+    using System.Windows.Forms;
+
     public partial class HelpMainForm : Form
     {
         public HelpMainForm()
@@ -17,9 +9,11 @@ namespace NoNameYet
             InitializeComponent();
         }
 
-        private void HelpMainForm_Load(object sender, EventArgs e)
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            label1.Text = "";
+            HelpChanges helpChangesForm = new HelpChanges();
+            helpChangesForm.Show();
+            this.Hide();
         }
     }
 }

@@ -174,7 +174,8 @@
             this.Load += new System.EventHandler(this.Times_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
-
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.MaximizeBox = false;
         }
 
         #endregion

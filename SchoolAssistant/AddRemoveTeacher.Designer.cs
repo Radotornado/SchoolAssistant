@@ -106,9 +106,9 @@
             this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label10.Location = new System.Drawing.Point(9, 270);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(141, 16);
+            this.label10.Size = new System.Drawing.Size(126, 16);
             this.label10.TabIndex = 47;
-            this.label10.Text = "Премахнете учител:";
+            this.label10.Text = "Премахни учител:";
             // 
             // button2
             // 
@@ -173,9 +173,9 @@
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label1.Location = new System.Drawing.Point(9, 9);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(215, 16);
+            this.label1.Size = new System.Drawing.Size(200, 16);
             this.label1.TabIndex = 40;
-            this.label1.Text = "Въведете данни за нов учител:";
+            this.label1.Text = "Въведи данни за нов учител:";
             // 
             // button1
             // 
@@ -211,7 +211,9 @@
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximizeBox = false;
             this.Name = "AddRemoveTeacher";
             this.Text = "Добави \\ Премахни учител";
             this.Load += new System.EventHandler(this.AddRemoveTeacher_Load);

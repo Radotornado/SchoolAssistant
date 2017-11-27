@@ -60,6 +60,7 @@
             this.смениФайлСПрограмаНаКласовеToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.button2 = new System.Windows.Forms.Button();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
+            this.промениКласенРъководителНаКласToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -273,6 +274,7 @@
             this.добавиПремахниУчителToolStripMenuItem,
             this.добавиПремахниToolStripMenuItem,
             this.промениЧасЗаКонсултацияToolStripMenuItem,
+            this.промениКласенРъководителНаКласToolStripMenuItem,
             this.промениToolStripMenuItem});
             this.toolStripDropDownButton2.Image = ((System.Drawing.Image)(resources.GetObject("toolStripDropDownButton2.Image")));
             this.toolStripDropDownButton2.ImageTransparentColor = System.Drawing.Color.Magenta;
@@ -283,21 +285,21 @@
             // добавиПремахниУчителToolStripMenuItem
             // 
             this.добавиПремахниУчителToolStripMenuItem.Name = "добавиПремахниУчителToolStripMenuItem";
-            this.добавиПремахниУчителToolStripMenuItem.Size = new System.Drawing.Size(276, 22);
+            this.добавиПремахниУчителToolStripMenuItem.Size = new System.Drawing.Size(285, 22);
             this.добавиПремахниУчителToolStripMenuItem.Text = "Добави \\ премахни учител";
             this.добавиПремахниУчителToolStripMenuItem.Click += new System.EventHandler(this.addRemoveTeacherToolStripMenuItem_Click);
             // 
             // добавиПремахниToolStripMenuItem
             // 
             this.добавиПремахниToolStripMenuItem.Name = "добавиПремахниToolStripMenuItem";
-            this.добавиПремахниToolStripMenuItem.Size = new System.Drawing.Size(276, 22);
+            this.добавиПремахниToolStripMenuItem.Size = new System.Drawing.Size(285, 22);
             this.добавиПремахниToolStripMenuItem.Text = "Добави \\ премахни СИП ";
             this.добавиПремахниToolStripMenuItem.Click += new System.EventHandler(this.AddRemoveSipToolStripMenuItem_Click);
             // 
             // промениЧасЗаКонсултацияToolStripMenuItem
             // 
             this.промениЧасЗаКонсултацияToolStripMenuItem.Name = "промениЧасЗаКонсултацияToolStripMenuItem";
-            this.промениЧасЗаКонсултацияToolStripMenuItem.Size = new System.Drawing.Size(276, 22);
+            this.промениЧасЗаКонсултацияToolStripMenuItem.Size = new System.Drawing.Size(285, 22);
             this.промениЧасЗаКонсултацияToolStripMenuItem.Text = "Промени час за консултация ";
             this.промениЧасЗаКонсултацияToolStripMenuItem.Click += new System.EventHandler(this.changeConsultationToolStripMenuItem_Click);
             // 
@@ -307,7 +309,7 @@
             this.смениФайлСПрограмаНаУчителиToolStripMenuItem,
             this.смениФайлСПрограмаНаКласовеToolStripMenuItem});
             this.промениToolStripMenuItem.Name = "промениToolStripMenuItem";
-            this.промениToolStripMenuItem.Size = new System.Drawing.Size(276, 22);
+            this.промениToolStripMenuItem.Size = new System.Drawing.Size(285, 22);
             this.промениToolStripMenuItem.Text = "Промени програма на учител \\ клас";
             // 
             // смениФайлСПрограмаНаУчителиToolStripMenuItem
@@ -338,6 +340,13 @@
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
+            // промениКласенРъководителНаКласToolStripMenuItem
+            // 
+            this.промениКласенРъководителНаКласToolStripMenuItem.Name = "промениКласенРъководителНаКласToolStripMenuItem";
+            this.промениКласенРъководителНаКласToolStripMenuItem.Size = new System.Drawing.Size(285, 22);
+            this.промениКласенРъководителНаКласToolStripMenuItem.Text = "Промени класен ръководител на клас";
+            this.промениКласенРъководителНаКласToolStripMenuItem.Click += new System.EventHandler(this.changeClassTeacherToolStripMenuItem_Click);
+            // 
             // Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -355,8 +364,10 @@
             this.Controls.Add(this.button5);
             this.Controls.Add(this.button1);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(4);
+            this.MaximizeBox = false;
             this.Name = "Main";
             this.Text = "Училищен асистент";
             this.Load += new System.EventHandler(this.Form1_Load);
@@ -399,6 +410,7 @@
         private System.Windows.Forms.ToolStripMenuItem смениФайлСПрограмаНаУчителиToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem смениФайлСПрограмаНаКласовеToolStripMenuItem;
         private System.Windows.Forms.OpenFileDialog openFileDialog1;
+        private System.Windows.Forms.ToolStripMenuItem промениКласенРъководителНаКласToolStripMenuItem;
     }
 }
 

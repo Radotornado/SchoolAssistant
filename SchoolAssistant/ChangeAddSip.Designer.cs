@@ -113,9 +113,9 @@
             this.label15.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label15.Location = new System.Drawing.Point(12, 9);
             this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(173, 16);
+            this.label15.Size = new System.Drawing.Size(158, 16);
             this.label15.TabIndex = 38;
-            this.label15.Text = "Сменете \\ добавете СИП:";
+            this.label15.Text = "Смени \\ добавете СИП:";
             // 
             // label16
             // 
@@ -143,9 +143,11 @@
             this.Controls.Add(this.label14);
             this.Controls.Add(this.comboBox3);
             this.Controls.Add(this.label15);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximizeBox = false;
             this.Name = "ChangeAddSip";
-            this.Text = "Добавете \\ Сменете СИП";
+            this.Text = "Добави \\ Смени СИП";
             this.Load += new System.EventHandler(this.ChangeAddSip_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

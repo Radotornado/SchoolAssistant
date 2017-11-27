@@ -1,108 +1,29 @@
-C:\Users\rado\Desktop\NoNameYet\NoNameYet\bin\Debug\NoNameYet.exe.config
-C:\Users\rado\Desktop\NoNameYet\NoNameYet\bin\Debug\NoNameYet.exe
-C:\Users\rado\Desktop\NoNameYet\NoNameYet\bin\Debug\NoNameYet.pdb
-C:\Users\rado\Desktop\NoNameYet\NoNameYet\obj\Debug\SchoolAssistant.csprojResolveAssemblyReference.cache
-C:\Users\rado\Desktop\NoNameYet\NoNameYet\obj\Debug\SchoolAssistant.csproj.ResolveComReference.cache
-C:\Users\rado\Desktop\NoNameYet\NoNameYet\obj\Debug\SchoolAssistant.AddRemoveTeacher.resources
-C:\Users\rado\Desktop\NoNameYet\NoNameYet\obj\Debug\SchoolAssistant.Advanced.resources
-C:\Users\rado\Desktop\NoNameYet\NoNameYet\obj\Debug\SchoolAssistant.ChangeAddSip.resources
-C:\Users\rado\Desktop\NoNameYet\NoNameYet\obj\Debug\SchoolAssistant.ChangeConsultation.resources
-C:\Users\rado\Desktop\NoNameYet\NoNameYet\obj\Debug\SchoolAssistant.ChangePrograms.resources
-C:\Users\rado\Desktop\NoNameYet\NoNameYet\obj\Debug\SchoolAssistant.HelpForm.resources
-C:\Users\rado\Desktop\NoNameYet\NoNameYet\obj\Debug\SchoolAssistant.infoProject.resources
-C:\Users\rado\Desktop\NoNameYet\NoNameYet\obj\Debug\SchoolAssistant.AssisDirector.resources
-C:\Users\rado\Desktop\NoNameYet\NoNameYet\obj\Debug\SchoolAssistant.Class.resources
-C:\Users\rado\Desktop\NoNameYet\NoNameYet\obj\Debug\SchoolAssistant.Director.resources
-C:\Users\rado\Desktop\NoNameYet\NoNameYet\obj\Debug\SchoolAssistant.infoPMG.resources
-C:\Users\rado\Desktop\NoNameYet\NoNameYet\obj\Debug\SchoolAssistant.Main.resources
-C:\Users\rado\Desktop\NoNameYet\NoNameYet\obj\Debug\NoNameYet.Properties.Resources.resources
-C:\Users\rado\Desktop\NoNameYet\NoNameYet\obj\Debug\SchoolAssistant.ShiftRegime.resources
-C:\Users\rado\Desktop\NoNameYet\NoNameYet\obj\Debug\SchoolAssistant.TeacherForm.resources
-C:\Users\rado\Desktop\NoNameYet\NoNameYet\obj\Debug\SchoolAssistant.ElBell.resources
-C:\Users\rado\Desktop\NoNameYet\NoNameYet\obj\Debug\SchoolAssistant.YourClass.resources
-C:\Users\rado\Desktop\NoNameYet\NoNameYet\obj\Debug\SchoolAssistant.csproj.GenerateResource.Cache
-C:\Users\rado\Desktop\NoNameYet\NoNameYet\obj\Debug\NoNameYet.exe
-C:\Users\rado\Desktop\NoNameYet\NoNameYet\obj\Debug\NoNameYet.pdb
-C:\Users\rado\Desktop\NoNameYet\NoNameYet\obj\Debug\NoNameYet.HelpMainForm.resources
-C:\Users\rado\Desktop\NoNameYet\SchoolAssistant\bin\Debug\NoNameYet.exe.config
-C:\Users\rado\Desktop\NoNameYet\SchoolAssistant\obj\Debug\SchoolAssistant.csproj.ResolveComReference.cache
-C:\Users\rado\Desktop\NoNameYet\SchoolAssistant\obj\Debug\NoNameYet.exe
-C:\Users\rado\Desktop\NoNameYet\SchoolAssistant\obj\Debug\NoNameYet.pdb
-C:\Users\rado\Desktop\NoNameYet\SchoolAssistant\bin\Debug\NoNameYet.exe.manifest
-C:\Users\rado\Desktop\NoNameYet\SchoolAssistant\bin\Debug\NoNameYet.application
-C:\Users\rado\Desktop\NoNameYet\SchoolAssistant\bin\Debug\NoNameYet.exe
-C:\Users\rado\Desktop\NoNameYet\SchoolAssistant\bin\Debug\NoNameYet.pdb
-C:\Users\rado\Desktop\NoNameYet\SchoolAssistant\obj\Debug\SchoolAssistant.csprojResolveAssemblyReference.cache
-C:\Users\rado\Desktop\NoNameYet\SchoolAssistant\obj\Debug\SchoolAssistant.AddRemoveTeacher.resources
-C:\Users\rado\Desktop\NoNameYet\SchoolAssistant\obj\Debug\SchoolAssistant.ChangeAddSip.resources
-C:\Users\rado\Desktop\NoNameYet\SchoolAssistant\obj\Debug\SchoolAssistant.ChangeConsultation.resources
-C:\Users\rado\Desktop\NoNameYet\SchoolAssistant\obj\Debug\SchoolAssistant.HelpForm.resources
-C:\Users\rado\Desktop\NoNameYet\SchoolAssistant\obj\Debug\NoNameYet.HelpMainForm.resources
-C:\Users\rado\Desktop\NoNameYet\SchoolAssistant\obj\Debug\SchoolAssistant.infoProject.resources
-C:\Users\rado\Desktop\NoNameYet\SchoolAssistant\obj\Debug\SchoolAssistant.AssisDirector.resources
-C:\Users\rado\Desktop\NoNameYet\SchoolAssistant\obj\Debug\SchoolAssistant.Class.resources
-C:\Users\rado\Desktop\NoNameYet\SchoolAssistant\obj\Debug\SchoolAssistant.Director.resources
-C:\Users\rado\Desktop\NoNameYet\SchoolAssistant\obj\Debug\SchoolAssistant.infoPMG.resources
-C:\Users\rado\Desktop\NoNameYet\SchoolAssistant\obj\Debug\SchoolAssistant.Main.resources
-C:\Users\rado\Desktop\NoNameYet\SchoolAssistant\obj\Debug\NoNameYet.Properties.Resources.resources
-C:\Users\rado\Desktop\NoNameYet\SchoolAssistant\obj\Debug\SchoolAssistant.ShiftRegime.resources
-C:\Users\rado\Desktop\NoNameYet\SchoolAssistant\obj\Debug\SchoolAssistant.TeacherForm.resources
-C:\Users\rado\Desktop\NoNameYet\SchoolAssistant\obj\Debug\SchoolAssistant.ElBell.resources
-C:\Users\rado\Desktop\NoNameYet\SchoolAssistant\obj\Debug\SchoolAssistant.YourClass.resources
-C:\Users\rado\Desktop\NoNameYet\SchoolAssistant\obj\Debug\SchoolAssistant.csproj.GenerateResource.Cache
-C:\Users\rado\Desktop\NoNameYet\SchoolAssistant\obj\Debug\NoNameYet.exe.manifest
-C:\Users\rado\Desktop\NoNameYet\SchoolAssistant\obj\Debug\NoNameYet.application
-C:\Users\rado\Desktop\ \NoNameYet\SchoolAssistant\bin\Debug\NoNameYet.exe.config
-C:\Users\rado\Desktop\ \NoNameYet\SchoolAssistant\obj\Debug\SchoolAssistant.csproj.ResolveComReference.cache
-C:\Users\rado\Desktop\ \NoNameYet\SchoolAssistant\obj\Debug\NoNameYet.exe
-C:\Users\rado\Desktop\ \NoNameYet\SchoolAssistant\obj\Debug\NoNameYet.pdb
-C:\Users\rado\Desktop\ \NoNameYet\SchoolAssistant\bin\Debug\NoNameYet.exe.manifest
-C:\Users\rado\Desktop\ \NoNameYet\SchoolAssistant\bin\Debug\NoNameYet.application
-C:\Users\rado\Desktop\ \NoNameYet\SchoolAssistant\bin\Debug\NoNameYet.exe
-C:\Users\rado\Desktop\ \NoNameYet\SchoolAssistant\bin\Debug\NoNameYet.pdb
-C:\Users\rado\Desktop\ \NoNameYet\SchoolAssistant\obj\Debug\SchoolAssistant.csprojResolveAssemblyReference.cache
-C:\Users\rado\Desktop\ \NoNameYet\SchoolAssistant\obj\Debug\SchoolAssistant.AddRemoveTeacher.resources
-C:\Users\rado\Desktop\ \NoNameYet\SchoolAssistant\obj\Debug\SchoolAssistant.ChangeAddSip.resources
-C:\Users\rado\Desktop\ \NoNameYet\SchoolAssistant\obj\Debug\SchoolAssistant.ChangeConsultation.resources
-C:\Users\rado\Desktop\ \NoNameYet\SchoolAssistant\obj\Debug\NoNameYet.HelpMainForm.resources
-C:\Users\rado\Desktop\ \NoNameYet\SchoolAssistant\obj\Debug\SchoolAssistant.infoProject.resources
-C:\Users\rado\Desktop\ \NoNameYet\SchoolAssistant\obj\Debug\SchoolAssistant.AssisDirector.resources
-C:\Users\rado\Desktop\ \NoNameYet\SchoolAssistant\obj\Debug\SchoolAssistant.Class.resources
-C:\Users\rado\Desktop\ \NoNameYet\SchoolAssistant\obj\Debug\SchoolAssistant.Director.resources
-C:\Users\rado\Desktop\ \NoNameYet\SchoolAssistant\obj\Debug\SchoolAssistant.infoPMG.resources
-C:\Users\rado\Desktop\ \NoNameYet\SchoolAssistant\obj\Debug\SchoolAssistant.Main.resources
-C:\Users\rado\Desktop\ \NoNameYet\SchoolAssistant\obj\Debug\NoNameYet.Properties.Resources.resources
-C:\Users\rado\Desktop\ \NoNameYet\SchoolAssistant\obj\Debug\SchoolAssistant.ShiftRegime.resources
-C:\Users\rado\Desktop\ \NoNameYet\SchoolAssistant\obj\Debug\SchoolAssistant.TeacherForm.resources
-C:\Users\rado\Desktop\ \NoNameYet\SchoolAssistant\obj\Debug\SchoolAssistant.ElBell.resources
-C:\Users\rado\Desktop\ \NoNameYet\SchoolAssistant\obj\Debug\SchoolAssistant.YourClass.resources
-C:\Users\rado\Desktop\ \NoNameYet\SchoolAssistant\obj\Debug\SchoolAssistant.csproj.GenerateResource.Cache
-C:\Users\rado\Desktop\ \NoNameYet\SchoolAssistant\obj\Debug\NoNameYet.exe.manifest
-C:\Users\rado\Desktop\ \NoNameYet\SchoolAssistant\obj\Debug\NoNameYet.application
-C:\Users\rado\Documents\GitHub\SchoolAssistant\SchoolAssistant\bin\Debug\NoNameYet.exe.config
-C:\Users\rado\Documents\GitHub\SchoolAssistant\SchoolAssistant\obj\Debug\SchoolAssistant.csproj.ResolveComReference.cache
-C:\Users\rado\Documents\GitHub\SchoolAssistant\SchoolAssistant\obj\Debug\NoNameYet.exe
-C:\Users\rado\Documents\GitHub\SchoolAssistant\SchoolAssistant\obj\Debug\NoNameYet.pdb
-C:\Users\rado\Documents\GitHub\SchoolAssistant\SchoolAssistant\bin\Debug\NoNameYet.exe.manifest
-C:\Users\rado\Documents\GitHub\SchoolAssistant\SchoolAssistant\bin\Debug\NoNameYet.application
-C:\Users\rado\Documents\GitHub\SchoolAssistant\SchoolAssistant\bin\Debug\NoNameYet.exe
-C:\Users\rado\Documents\GitHub\SchoolAssistant\SchoolAssistant\bin\Debug\NoNameYet.pdb
+C:\Users\rado\Documents\GitHub\SchoolAssistant\SchoolAssistant\bin\Debug\SchoolAssistant.exe.config
+C:\Users\rado\Documents\GitHub\SchoolAssistant\SchoolAssistant\bin\Debug\SchoolAssistant.exe.manifest
+C:\Users\rado\Documents\GitHub\SchoolAssistant\SchoolAssistant\bin\Debug\SchoolAssistant.application
+C:\Users\rado\Documents\GitHub\SchoolAssistant\SchoolAssistant\bin\Debug\SchoolAssistant.exe
+C:\Users\rado\Documents\GitHub\SchoolAssistant\SchoolAssistant\bin\Debug\SchoolAssistant.pdb
 C:\Users\rado\Documents\GitHub\SchoolAssistant\SchoolAssistant\obj\Debug\SchoolAssistant.csprojResolveAssemblyReference.cache
+C:\Users\rado\Documents\GitHub\SchoolAssistant\SchoolAssistant\obj\Debug\SchoolAssistant.csproj.ResolveComReference.cache
 C:\Users\rado\Documents\GitHub\SchoolAssistant\SchoolAssistant\obj\Debug\SchoolAssistant.AddRemoveTeacher.resources
 C:\Users\rado\Documents\GitHub\SchoolAssistant\SchoolAssistant\obj\Debug\SchoolAssistant.ChangeAddSip.resources
+C:\Users\rado\Documents\GitHub\SchoolAssistant\SchoolAssistant\obj\Debug\SchoolAssistant.ChangeClassTeacher.resources
 C:\Users\rado\Documents\GitHub\SchoolAssistant\SchoolAssistant\obj\Debug\SchoolAssistant.ChangeConsultation.resources
-C:\Users\rado\Documents\GitHub\SchoolAssistant\SchoolAssistant\obj\Debug\NoNameYet.HelpMainForm.resources
+C:\Users\rado\Documents\GitHub\SchoolAssistant\SchoolAssistant\obj\Debug\SchoolAssistant.HelpChanges.resources
+C:\Users\rado\Documents\GitHub\SchoolAssistant\SchoolAssistant\obj\Debug\SchoolAssistant.HelpMainForm.resources
 C:\Users\rado\Documents\GitHub\SchoolAssistant\SchoolAssistant\obj\Debug\SchoolAssistant.infoProject.resources
 C:\Users\rado\Documents\GitHub\SchoolAssistant\SchoolAssistant\obj\Debug\SchoolAssistant.AssisDirector.resources
 C:\Users\rado\Documents\GitHub\SchoolAssistant\SchoolAssistant\obj\Debug\SchoolAssistant.Class.resources
 C:\Users\rado\Documents\GitHub\SchoolAssistant\SchoolAssistant\obj\Debug\SchoolAssistant.Director.resources
 C:\Users\rado\Documents\GitHub\SchoolAssistant\SchoolAssistant\obj\Debug\SchoolAssistant.infoPMG.resources
 C:\Users\rado\Documents\GitHub\SchoolAssistant\SchoolAssistant\obj\Debug\SchoolAssistant.Main.resources
-C:\Users\rado\Documents\GitHub\SchoolAssistant\SchoolAssistant\obj\Debug\NoNameYet.Properties.Resources.resources
+C:\Users\rado\Documents\GitHub\SchoolAssistant\SchoolAssistant\obj\Debug\SchoolAssistant.Properties.Resources.resources
 C:\Users\rado\Documents\GitHub\SchoolAssistant\SchoolAssistant\obj\Debug\SchoolAssistant.ShiftRegime.resources
 C:\Users\rado\Documents\GitHub\SchoolAssistant\SchoolAssistant\obj\Debug\SchoolAssistant.TeacherForm.resources
 C:\Users\rado\Documents\GitHub\SchoolAssistant\SchoolAssistant\obj\Debug\SchoolAssistant.ElBell.resources
 C:\Users\rado\Documents\GitHub\SchoolAssistant\SchoolAssistant\obj\Debug\SchoolAssistant.YourClass.resources
 C:\Users\rado\Documents\GitHub\SchoolAssistant\SchoolAssistant\obj\Debug\SchoolAssistant.csproj.GenerateResource.Cache
-C:\Users\rado\Documents\GitHub\SchoolAssistant\SchoolAssistant\obj\Debug\NoNameYet.exe.manifest
-C:\Users\rado\Documents\GitHub\SchoolAssistant\SchoolAssistant\obj\Debug\NoNameYet.application
+C:\Users\rado\Documents\GitHub\SchoolAssistant\SchoolAssistant\obj\Debug\SchoolAssistant.exe.manifest
+C:\Users\rado\Documents\GitHub\SchoolAssistant\SchoolAssistant\obj\Debug\SchoolAssistant.application
+C:\Users\rado\Documents\GitHub\SchoolAssistant\SchoolAssistant\obj\Debug\SchoolAssistant.exe
+C:\Users\rado\Documents\GitHub\SchoolAssistant\SchoolAssistant\obj\Debug\SchoolAssistant.pdb

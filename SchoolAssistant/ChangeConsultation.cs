@@ -2,14 +2,13 @@
 {
     using System;
     using System.Data.OleDb;
-    using System.Linq;
     using System.Windows.Forms;
 
     public partial class ChangeConsultation : Form
     {
         private OleDbConnection connection = new OleDbConnection(@"Provider=Microsoft.ACE.OLEDB.12.0;Data Source=Teachers.accdb");
         private string teacherChosen = "";
-        public static AllTeachers Allteachers = new AllTeachers();
+        private static AllTeachers Allteachers = new AllTeachers();
         public ChangeConsultation()
         {
             InitializeComponent();

@@ -55,6 +55,8 @@
             this.Load += new System.EventHandler(this.ShiftRegime_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.MaximizeBox = false;
 
         }
 

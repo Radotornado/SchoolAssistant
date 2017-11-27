@@ -246,7 +246,8 @@
 
         private void mainFormToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            //TODO
+            HelpMainForm helpMainFormForm = new HelpMainForm();
+            helpMainFormForm.Show();
         }
 
         private void elBellToolStripMenuItem_Click(object sender, EventArgs e)
@@ -256,7 +257,8 @@
 
         private void changesToolStripMenuItem1_Click(object sender, EventArgs e)
         {
-            //TODO
+            HelpChanges HelpChangesForm = new HelpChanges();
+            HelpChangesForm.Show();
         }
 
         private void addRemoveTeacherToolStripMenuItem_Click(object sender, EventArgs e)
@@ -325,6 +327,13 @@
                 File.WriteAllText(pathClasses, String.Empty);
             }
         }
+
+        private void changeClassTeacherToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            ChangeClassTeacher changeClassTeacherForm = new ChangeClassTeacher();
+            changeClassTeacherForm.Show();
+        }
+
     }
     public class AllTeachers // classes for passing variables from one form to other
     {
