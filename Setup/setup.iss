@@ -5,7 +5,7 @@
 #define MyAppVersion "1.0"
 #define MyAppPublisher "Radoslav Mandev"
 #define MyAppURL "http://www.radoslav-mandev.free.bg"
-#define MyAppExeName "NoNameYet.exe"
+#define MyAppExeName "SchoolAssistant.exe"
 
 [Setup]
 ; NOTE: The value of AppId uniquely identifies this application.
@@ -33,17 +33,17 @@ Name: "desktopicon"; Description: "{cm:CreateDesktopIcon}"; GroupDescription: "{
 Name: "quicklaunchicon"; Description: "{cm:CreateQuickLaunchIcon}"; GroupDescription: "{cm:AdditionalIcons}"; Flags: unchecked; OnlyBelowVersion: 0,6.1
 
 [Files]
-Source: "C:\Users\rado\Documents\GitHub\SchoolAssistant\SchoolAssistant\bin\Debug\NoNameYet.exe"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\rado\Documents\GitHub\SchoolAssistant\SchoolAssistant\bin\Debug\SchoolAssistant.exe"; DestDir: "{app}"; Flags: ignoreversion
 Source: "C:\Users\rado\Documents\GitHub\SchoolAssistant\SchoolAssistant\bin\Debug\classes.pdf"; DestDir: "{app}"; Flags: ignoreversion
 Source: "C:\Users\rado\Documents\GitHub\SchoolAssistant\SchoolAssistant\bin\Debug\icon.ico"; DestDir: "{app}"; Flags: ignoreversion
 Source: "C:\Users\rado\Documents\GitHub\SchoolAssistant\SchoolAssistant\bin\Debug\NewProgramsClassesFilePath.txt"; DestDir: "{app}"; Flags: ignoreversion
 Source: "C:\Users\rado\Documents\GitHub\SchoolAssistant\SchoolAssistant\bin\Debug\NewProgramsTeachersFilePath.txt"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\rado\Documents\GitHub\SchoolAssistant\SchoolAssistant\bin\Debug\NoNameYet.exe.config"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\rado\Documents\GitHub\SchoolAssistant\SchoolAssistant\bin\Debug\NoNameYet.exe.manifest"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\rado\Documents\GitHub\SchoolAssistant\SchoolAssistant\bin\Debug\NoNameYet.pdb"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\rado\Documents\GitHub\SchoolAssistant\SchoolAssistant\bin\Debug\NoNameYet.vshost.application"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\rado\Documents\GitHub\SchoolAssistant\SchoolAssistant\bin\Debug\NoNameYet.vshost.exe.config"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\rado\Documents\GitHub\SchoolAssistant\SchoolAssistant\bin\Debug\NoNameYet.vshost.exe.manifest"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\rado\Documents\GitHub\SchoolAssistant\SchoolAssistant\bin\Debug\SchoolAssistant.exe.config"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\rado\Documents\GitHub\SchoolAssistant\SchoolAssistant\bin\Debug\SchoolAssistant.exe.manifest"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\rado\Documents\GitHub\SchoolAssistant\SchoolAssistant\bin\Debug\SchoolAssistant.pdb"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\rado\Documents\GitHub\SchoolAssistant\SchoolAssistant\bin\Debug\SchoolAssistant.vshost.application"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\rado\Documents\GitHub\SchoolAssistant\SchoolAssistant\bin\Debug\SchoolAssistant.vshost.exe.config"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\rado\Documents\GitHub\SchoolAssistant\SchoolAssistant\bin\Debug\SchoolAssistant.vshost.exe.manifest"; DestDir: "{app}"; Flags: ignoreversion
 Source: "C:\Users\rado\Documents\GitHub\SchoolAssistant\SchoolAssistant\bin\Debug\once.txt"; DestDir: "{app}"; Flags: ignoreversion
 Source: "C:\Users\rado\Documents\GitHub\SchoolAssistant\SchoolAssistant\bin\Debug\pmgImage.jpg"; DestDir: "{app}"; Flags: ignoreversion
 Source: "C:\Users\rado\Documents\GitHub\SchoolAssistant\SchoolAssistant\bin\Debug\SchoolAssistant.application"; DestDir: "{app}"; Flags: ignoreversion
