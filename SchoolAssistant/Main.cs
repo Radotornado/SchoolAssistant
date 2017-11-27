@@ -10,7 +10,7 @@
 
     public partial class Main : Form
     {
-        private OleDbConnection connection = new OleDbConnection(@"Provider=Microsoft.ACE.OLEDB.12.0;Data Source=Teachers.accdb");
+        private OleDbConnection connection = new OleDbConnection(@"Provider=Microsoft.ACE.OLEDB.12.0;Data Source=Teachers.accdb"); // Include DB
         public static TeacherChosen teacherChosen = new TeacherChosen();
         public static AllTeachers Allteachers = new AllTeachers();
         public static Classes classes = new Classes();
@@ -35,7 +35,7 @@
 
         private void button1_Click(object sender, EventArgs e)
         {
-            teacherChosen.Names = comboBox1.SelectedItem.ToString();
+            teacherChosen.Names = comboBox1.SelectedItem.ToString(); // Find and bind the chosen teacher from combo box
 
             for (int i = 0; i < Allteachers.Names.Count; i++)
             {
@@ -49,11 +49,11 @@
                 }
             }
 
-            TeacherForm teacherForm = new TeacherForm();
+            TeacherForm teacherForm = new TeacherForm(); // open TeacherForm
             teacherForm.Show();
         }
 
-        public List<string> getTeacherInfo()
+        public List<string> getTeacherInfo() // gets the info form DB in tables Teachers and Subjects
         {
             OleDbCommand com = new OleDbCommand("SELECT * FROM Teachers INNER JOIN Subject ON Subject.ID = Teachers.Subject_ID ORDER BY Teachers.Name ASC", connection);
             DataTable dt = new DataTable();
@@ -78,7 +78,7 @@
             return Allteachers.Names;
         }
 
-        public List<string> getClassInfo()
+        public List<string> getClassInfo() // gets the name and the class teacher form DB in table Classes 
         {
             OleDbCommand com = new OleDbCommand("SELECT ClassNames, Teacher FROM Classes", connection);
             DataTable dt = new DataTable();
@@ -96,9 +96,9 @@
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            comboBox1.DataSource = getTeacherInfo();
+            comboBox1.DataSource = getTeacherInfo(); 
             comboBox2.DataSource = getClassInfo();
-            t.Enabled = true;
+            t.Enabled = true; // make a timer, set the interval to 1sek and start it for the current time
             t.Interval = 1000;
             t.Tick += new EventHandler(this.timer1_Tick);
             t.Start();
@@ -107,14 +107,14 @@
 
         private void button5_Click(object sender, EventArgs e)
         {
-            classChosen = comboBox2.Text;
+            classChosen = comboBox2.Text; // bind the chosen class to pass it to Class form
             Class classForm = new Class();
             classForm.Show();
         }
 
         public void dateTimeInfo()
         {
-            int hh = DateTime.Now.Hour;
+            int hh = DateTime.Now.Hour; // make a clock
             int mm = DateTime.Now.Minute;
             int ss = DateTime.Now.Second;
             string time = "";
@@ -128,12 +128,12 @@
             else time += ss;
             label5.Text = "Сега е " + time + " часът.";
 
-            for (int i = 0; i < hours.Length; i++)
+            for (int i = 0; i < hours.Length; i++) // get the times form arrays and convert them to TimeSpan
             {
                 TimeSpansForClasses[i] = new TimeSpan(hours[i], minutes[i], 0);
             }
-            int f = 1;
-            int s = 1;
+            int f = 1; // Check for current class time and shift
+            int s = 1; 
             for (int i = 1; i < 14; i+=2)
             {
                 int a = i;
@@ -169,9 +169,9 @@
                 case "Friday": dayOfWeekInBG = "Петък"; break;
                 case "Saturday": dayOfWeekInBG = "Събота"; break;
                 case "Sunday": dayOfWeekInBG = "Неделя"; break;
-                    #endregion
+                #endregion
             }
-            if (classTime != 0 && shift != "")
+            if (classTime != 0 && shift != "") // sets the string for class time and shift
             {
                 if (dayOfWeekInBG == "Събота" || dayOfWeekInBG == "Неделя")
                 {
@@ -186,7 +186,7 @@
             {
                 timeNow.dateNoClass = $"Часът не е започнал. Днес е  {dayOfWeekInBG} - {DateTime.Now.Day}.{DateTime.Now.Month}.{DateTime.Now.Year}г.";
             }
-            if (classTime != 0)
+            if (classTime != 0) // sets the label for current class time and shift
             {
                 label6.Text = timeNow.dateInClass;
             }
@@ -198,7 +198,7 @@
 
         private void timer1_Tick(object sender, EventArgs e)
         {
-            dateTimeInfo();
+            dateTimeInfo(); // every second call the time
         }
         
 
@@ -244,41 +244,41 @@
             elbellForm.Show();
         }
 
-        private void основнаФормаToolStripMenuItem_Click(object sender, EventArgs e)
+        private void mainFormToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            
+            //TODO
         }
 
-        private void електроненЗвънецToolStripMenuItem_Click(object sender, EventArgs e)
+        private void elBellToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
+            //TODO
         }
 
-        private void промениToolStripMenuItem1_Click(object sender, EventArgs e)
+        private void changesToolStripMenuItem1_Click(object sender, EventArgs e)
         {
-
+            //TODO
         }
 
-        private void добавиПремахниУчителToolStripMenuItem_Click(object sender, EventArgs e)
+        private void addRemoveTeacherToolStripMenuItem_Click(object sender, EventArgs e)
         {
             AddRemoveTeacher addRemoveTeacherForm = new AddRemoveTeacher();
             addRemoveTeacherForm.Show();
         }
 
-        private void добавиПремахниToolStripMenuItem_Click(object sender, EventArgs e)
+        private void AddRemoveSipToolStripMenuItem_Click(object sender, EventArgs e)
         {
             ChangeAddSip ChangeAddSipForm = new ChangeAddSip();
             ChangeAddSipForm.Show();
         }
 
-        private void промениЧасЗаКонсултацияToolStripMenuItem_Click(object sender, EventArgs e)
+        private void changeConsultationToolStripMenuItem_Click(object sender, EventArgs e)
         {
             ChangeConsultation ChangeConsultationForm = new ChangeConsultation();
             ChangeConsultationForm.Show();
         }
         
 
-        private void смениФайлСПрограмаНаУчителиToolStripMenuItem_Click(object sender, EventArgs e)
+        private void changFileProgramsTeachersToolStripMenuItem_Click(object sender, EventArgs e)
         {
             if (openFileDialog1.ShowDialog() == DialogResult.OK)
             {
@@ -287,7 +287,7 @@
 
             if (MessageBox.Show("Сигурни ли сте? Старият файл ще се замени. При натискане на \"No\" ще се зададе файлът по подразбиране.", "Нужно е потвърждение", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
             {
-                File.WriteAllText(pathTeachers, String.Empty);
+                File.WriteAllText(pathTeachers, String.Empty); // saves the new asked directory in text file
                 using (FileStream fs = new FileStream(pathTeachers, FileMode.OpenOrCreate))
                 {
                     using (TextWriter tw = new StreamWriter(fs))
@@ -302,7 +302,7 @@
             }
         }
 
-        private void смениФайлСПрограмаНаКласовеToolStripMenuItem_Click(object sender, EventArgs e)
+        private void changeFileProgramsClassesToolStripMenuItem_Click(object sender, EventArgs e)
         {
             if (openFileDialog1.ShowDialog() == DialogResult.OK)
             {
@@ -326,7 +326,7 @@
             }
         }
     }
-    public class AllTeachers
+    public class AllTeachers // classes for passing variables from one form to other
     {
         public List<string> Names = new List<string>();
         public List<string> Subject = new List<string>();

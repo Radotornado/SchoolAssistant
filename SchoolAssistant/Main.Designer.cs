@@ -250,21 +250,21 @@
             this.основнаФормаToolStripMenuItem.Name = "основнаФормаToolStripMenuItem";
             this.основнаФормаToolStripMenuItem.Size = new System.Drawing.Size(179, 22);
             this.основнаФормаToolStripMenuItem.Text = "Основна форма";
-            this.основнаФормаToolStripMenuItem.Click += new System.EventHandler(this.основнаФормаToolStripMenuItem_Click);
+            this.основнаФормаToolStripMenuItem.Click += new System.EventHandler(this.mainFormToolStripMenuItem_Click);
             // 
             // електроненЗвънецToolStripMenuItem
             // 
             this.електроненЗвънецToolStripMenuItem.Name = "електроненЗвънецToolStripMenuItem";
             this.електроненЗвънецToolStripMenuItem.Size = new System.Drawing.Size(179, 22);
             this.електроненЗвънецToolStripMenuItem.Text = "Електронен звънец";
-            this.електроненЗвънецToolStripMenuItem.Click += new System.EventHandler(this.електроненЗвънецToolStripMenuItem_Click);
+            this.електроненЗвънецToolStripMenuItem.Click += new System.EventHandler(this.elBellToolStripMenuItem_Click);
             // 
             // промениToolStripMenuItem1
             // 
             this.промениToolStripMenuItem1.Name = "промениToolStripMenuItem1";
             this.промениToolStripMenuItem1.Size = new System.Drawing.Size(179, 22);
             this.промениToolStripMenuItem1.Text = "Промени";
-            this.промениToolStripMenuItem1.Click += new System.EventHandler(this.промениToolStripMenuItem1_Click);
+            this.промениToolStripMenuItem1.Click += new System.EventHandler(this.changesToolStripMenuItem1_Click);
             // 
             // toolStripDropDownButton2
             // 
@@ -285,21 +285,21 @@
             this.добавиПремахниУчителToolStripMenuItem.Name = "добавиПремахниУчителToolStripMenuItem";
             this.добавиПремахниУчителToolStripMenuItem.Size = new System.Drawing.Size(276, 22);
             this.добавиПремахниУчителToolStripMenuItem.Text = "Добави \\ премахни учител";
-            this.добавиПремахниУчителToolStripMenuItem.Click += new System.EventHandler(this.добавиПремахниУчителToolStripMenuItem_Click);
+            this.добавиПремахниУчителToolStripMenuItem.Click += new System.EventHandler(this.addRemoveTeacherToolStripMenuItem_Click);
             // 
             // добавиПремахниToolStripMenuItem
             // 
             this.добавиПремахниToolStripMenuItem.Name = "добавиПремахниToolStripMenuItem";
             this.добавиПремахниToolStripMenuItem.Size = new System.Drawing.Size(276, 22);
             this.добавиПремахниToolStripMenuItem.Text = "Добави \\ премахни СИП ";
-            this.добавиПремахниToolStripMenuItem.Click += new System.EventHandler(this.добавиПремахниToolStripMenuItem_Click);
+            this.добавиПремахниToolStripMenuItem.Click += new System.EventHandler(this.AddRemoveSipToolStripMenuItem_Click);
             // 
             // промениЧасЗаКонсултацияToolStripMenuItem
             // 
             this.промениЧасЗаКонсултацияToolStripMenuItem.Name = "промениЧасЗаКонсултацияToolStripMenuItem";
             this.промениЧасЗаКонсултацияToolStripMenuItem.Size = new System.Drawing.Size(276, 22);
             this.промениЧасЗаКонсултацияToolStripMenuItem.Text = "Промени час за консултация ";
-            this.промениЧасЗаКонсултацияToolStripMenuItem.Click += new System.EventHandler(this.промениЧасЗаКонсултацияToolStripMenuItem_Click);
+            this.промениЧасЗаКонсултацияToolStripMenuItem.Click += new System.EventHandler(this.changeConsultationToolStripMenuItem_Click);
             // 
             // промениToolStripMenuItem
             // 
@@ -315,14 +315,14 @@
             this.смениФайлСПрограмаНаУчителиToolStripMenuItem.Name = "смениФайлСПрограмаНаУчителиToolStripMenuItem";
             this.смениФайлСПрограмаНаУчителиToolStripMenuItem.Size = new System.Drawing.Size(273, 22);
             this.смениФайлСПрограмаНаУчителиToolStripMenuItem.Text = "Смени файл с програма на учители";
-            this.смениФайлСПрограмаНаУчителиToolStripMenuItem.Click += new System.EventHandler(this.смениФайлСПрограмаНаУчителиToolStripMenuItem_Click);
+            this.смениФайлСПрограмаНаУчителиToolStripMenuItem.Click += new System.EventHandler(this.changFileProgramsTeachersToolStripMenuItem_Click);
             // 
             // смениФайлСПрограмаНаКласовеToolStripMenuItem
             // 
             this.смениФайлСПрограмаНаКласовеToolStripMenuItem.Name = "смениФайлСПрограмаНаКласовеToolStripMenuItem";
             this.смениФайлСПрограмаНаКласовеToolStripMenuItem.Size = new System.Drawing.Size(273, 22);
             this.смениФайлСПрограмаНаКласовеToolStripMenuItem.Text = "Смени файл с програма на класове";
-            this.смениФайлСПрограмаНаКласовеToolStripMenuItem.Click += new System.EventHandler(this.смениФайлСПрограмаНаКласовеToolStripMenuItem_Click);
+            this.смениФайлСПрограмаНаКласовеToolStripMenuItem.Click += new System.EventHandler(this.changeFileProgramsClassesToolStripMenuItem_Click);
             // 
             // button2
             // 

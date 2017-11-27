@@ -17,7 +17,7 @@
         private void Director_Load(object sender, EventArgs e)
         {
             string currentDirectory = System.IO.Directory.GetCurrentDirectory();
-            webBrowser1.Navigate(currentDirectory + "\\" + $"teachers.pdf#page=65");
+            webBrowser1.Navigate(currentDirectory + "\\" + $"teachers.pdf#page=65"); // open file for director program
             if (timeNow.dateInClass != "") label6.Text = timeNow.dateInClass;
             else label6.Text = timeNow.dateNoClass;
             t.Enabled = true;

@@ -28,8 +28,9 @@ namespace SchoolAssistant
 10.04.2018г. - 01.06.2018г.
 04.06.2018г. - 29.06.2018г.
 
-Днес е {DateTime.Now.Date.ToString(@"dd/MM/yyyy")}г.
+Днес е {DateTime.Now.Date.ToString(@"dd/MM/yyyy")}г. 
 ";
+            //gets current date in this format
         }
     }
 }

@@ -21,7 +21,7 @@
 
         private void Times_Load(object sender, EventArgs e)
         {
-
+            // for possible future changing to class times
             label1.Text = $@"
 №     I смяна           II смяна
 
@@ -41,9 +41,9 @@
             t.Tick += new EventHandler(this.timer1_Tick);
             t.Start();
 
-            foreach (string port in ports) comboBox1.Items.Add(port);
-            if (comboBox1.Items.Count != 0) comboBox1.SelectedIndex = 0;
-            else MessageBox.Show("Няма включен електронен звънец!");
+            foreach (string port in ports) comboBox1.Items.Add(port); 
+            if (comboBox1.Items.Count != 0) comboBox1.SelectedIndex = 0; // check for possible COM ports
+            else MessageBox.Show("Няма включен електронен звънец!"); 
             button1.Enabled = false;
 
         }
@@ -53,7 +53,7 @@
             button1.Enabled = true;
             button2.Enabled = false;
             label5.MaximumSize = new Size(250, 0);
-            label5.Text = $"Електронният звънец е включен на порт {comboBox1.SelectedItem}";
+            label5.Text = $"Електронният звънец е включен на порт {comboBox1.SelectedItem}"; // sets name of port 
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -82,14 +82,14 @@
             if (timeNow.dateInClass != "") label3.Text = timeNow.dateInClass;
             else label3.Text = timeNow.dateNoClass;
         }
-        private void singleRing()
+        private void singleRing() // sends a command through serial port for arduino
         {
             SerialPort serial = new SerialPort(comboBox1.SelectedItem.ToString(), 9600);
             serial.Open();
-            serial.WriteLine("A");
+            serial.WriteLine("A"); 
             serial.Close();
         }
-        private void dualRing()
+        private void dualRing() // sends a command through serial port for arduino
         {
             SerialPort serial = new SerialPort(comboBox1.SelectedItem.ToString(), 9600);
             serial.Open();
@@ -97,7 +97,7 @@
             serial.Close();
 
         }
-        public void alarm()
+        public void alarm() // sends a command through serial port for arduino
         {
             SerialPort serial = new SerialPort(comboBox1.SelectedItem.ToString(), 9600);
             serial.Open();
@@ -111,11 +111,11 @@
         }
         private void whenToRing()
         {
-            if (button1.Enabled == true)
+            if (button1.Enabled == true) // checks if enabled
             {
-                if (DateTime.Now.DayOfWeek != DayOfWeek.Saturday && DateTime.Now.DayOfWeek != DayOfWeek.Sunday)
+                if (DateTime.Now.DayOfWeek != DayOfWeek.Saturday && DateTime.Now.DayOfWeek != DayOfWeek.Sunday) // checks when to ring
                 {
-                    for (int i = 0; i < linesTwice.Length; i++)
+                    for (int i = 0; i < linesTwice.Length; i++) // checks when to ring once or twice
                     {
                         if (DateTime.Now.TimeOfDay.ToString(@"hh\:mm\:ss") == linesTwice[i])
                         {

@@ -47,6 +47,7 @@
             }
             int page = 0;
 
+            // TODO make this work 
             //for (int i = 1; i <= Teacherlines.Length; i+=2)
             //{
             //    int a = i;
@@ -57,8 +58,8 @@
             //    }
             //}
 
-            switch (teacherChosen.Names)
-            {
+            switch (teacherChosen.Names) // Very very ugly 
+            { 
                 #region Checking for teachers and assigning in table
                 case "Ирена Желязкова": page = 1; break;
                 case "Веселина Симеонова": page = 60; break;
@@ -138,18 +139,18 @@
             {
                 if (programPath!= "")
                 {
-                    webBrowser1.Navigate($@"{programPath}#page={page}");
+                    webBrowser1.Navigate($@"{programPath}#page={page}"); // gets the path to the new file
                 }
                 else
                 {
-                    string currentDirectory = System.IO.Directory.GetCurrentDirectory();
-                    webBrowser1.Navigate(currentDirectory + "\\" + $"teachers.pdf#page={page}");
+                    string currentDirectory = System.IO.Directory.GetCurrentDirectory(); // gets the current directory. Nessesary due to installer
+                    webBrowser1.Navigate(currentDirectory + "\\" + $"teachers.pdf#page={page}"); 
                 }
             }
             
             if (timeNow.dateInClass != "")  label5.Text = timeNow.dateInClass;
-            else label5.Text = timeNow.dateNoClass;
-            t.Enabled = true;
+            else label5.Text = timeNow.dateNoClass; 
+            t.Enabled = true; // make a timer
             t.Interval = 1000;
             t.Tick += new EventHandler(this.timer1_Tick);
             t.Start();
@@ -169,7 +170,7 @@
             time += ":";
             if (ss < 10) time += "0" + ss;
             else time += ss;
-            label6.Text = "Сега е " + time + " часът.";
+            label6.Text = "Сега е " + time + " часът."; // shows current time
         }
     }
 
