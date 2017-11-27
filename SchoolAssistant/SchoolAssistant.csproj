@@ -1,0 +1,268 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{9C33FE4B-6C0F-42D3-A400-D27BAC9E0AE2}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>NoNameYet</RootNamespace>
+    <AssemblyName>NoNameYet</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>C:\Users\rado\Desktop\Deploy\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <AutorunEnabled>true</AutorunEnabled>
+    <ApplicationRevision>1</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>031257230B0D9ABE57F82DDE071C70AA9D5E9C5D</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>SchoolAssistant_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AddRemoveTeacher.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddRemoveTeacher.Designer.cs">
+      <DependentUpon>AddRemoveTeacher.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ChangeAddSip.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChangeAddSip.Designer.cs">
+      <DependentUpon>ChangeAddSip.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ChangeConsultation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChangeConsultation.Designer.cs">
+      <DependentUpon>ChangeConsultation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HelpMainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HelpMainForm.Designer.cs">
+      <DependentUpon>HelpMainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="infoProject.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="infoProject.Designer.cs">
+      <DependentUpon>infoProject.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AssisDirector.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AssisDirector.Designer.cs">
+      <DependentUpon>AssisDirector.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Class.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Class.Designer.cs">
+      <DependentUpon>Class.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Director.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Director.Designer.cs">
+      <DependentUpon>Director.cs</DependentUpon>
+    </Compile>
+    <Compile Include="infoPMG.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="infoPMG.Designer.cs">
+      <DependentUpon>infoPMG.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main.Designer.cs">
+      <DependentUpon>Main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ShiftRegime.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ShiftRegime.Designer.cs">
+      <DependentUpon>ShiftRegime.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TeacherForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TeacherForm.Designer.cs">
+      <DependentUpon>TeacherForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ElBell.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ElBell.Designer.cs">
+      <DependentUpon>ElBell.cs</DependentUpon>
+    </Compile>
+    <Compile Include="YourClass.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="YourClass.Designer.cs">
+      <DependentUpon>YourClass.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AddRemoveTeacher.resx">
+      <DependentUpon>AddRemoveTeacher.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChangeAddSip.resx">
+      <DependentUpon>ChangeAddSip.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChangeConsultation.resx">
+      <DependentUpon>ChangeConsultation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HelpMainForm.resx">
+      <DependentUpon>HelpMainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="infoProject.resx">
+      <DependentUpon>infoProject.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AssisDirector.resx">
+      <DependentUpon>AssisDirector.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Class.resx">
+      <DependentUpon>Class.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Director.resx">
+      <DependentUpon>Director.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="infoPMG.resx">
+      <DependentUpon>infoPMG.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main.resx">
+      <DependentUpon>Main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="ShiftRegime.resx">
+      <DependentUpon>ShiftRegime.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TeacherForm.resx">
+      <DependentUpon>TeacherForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ElBell.resx">
+      <DependentUpon>ElBell.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="YourClass.resx">
+      <DependentUpon>YourClass.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="Microsoft.Office.Core">
+      <Guid>{2DF8D04C-5BFA-101B-BDE5-00AA0044DE52}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>8</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="VBIDE">
+      <Guid>{0002E157-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>5</VersionMajor>
+      <VersionMinor>3</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5.2 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

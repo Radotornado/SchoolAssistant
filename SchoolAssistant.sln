@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SchoolAssistant", "SchoolAssistant\SchoolAssistant.csproj", "{9C33FE4B-6C0F-42D3-A400-D27BAC9E0AE2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9C33FE4B-6C0F-42D3-A400-D27BAC9E0AE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C33FE4B-6C0F-42D3-A400-D27BAC9E0AE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C33FE4B-6C0F-42D3-A400-D27BAC9E0AE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C33FE4B-6C0F-42D3-A400-D27BAC9E0AE2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {76951F82-5B57-4592-9342-55EFA33D896B}
+	EndGlobalSection
+EndGlobal
