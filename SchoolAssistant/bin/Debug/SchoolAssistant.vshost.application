@@ -7,14 +7,14 @@
     <framework targetVersion="4.5.2" profile="Full" supportedRuntime="4.0.30319" />
   </compatibleFrameworks>
   <dependency>
-    <dependentAssembly dependencyType="install" codebase="SchoolAssistant.exe.manifest" size="3502">
+    <dependentAssembly dependencyType="install" codebase="SchoolAssistant.exe.manifest" size="3976">
       <assemblyIdentity name="SchoolAssistant.exe" version="1.0.0.1" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>P7nVBjc6IFoEfRyHsDFUdnr3rtSBTo9VyX6+9TZbeak=</dsig:DigestValue>
+        <dsig:DigestValue>UiuMaTsw9HjJC+JLx+o01EZfZ9VKENeGsLEYDsmlbPg=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
