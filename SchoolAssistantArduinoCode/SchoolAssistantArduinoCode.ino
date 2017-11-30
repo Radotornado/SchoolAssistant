@@ -1,38 +1,41 @@
 int message = 0;
-int LEDPin = 11;
+int relay = 11;
+int onPin = 12;
 
 void setup()
 {
  Serial.begin(9600);
- pinMode(LEDPin, OUTPUT);     
+ pinMode(relay, OUTPUT);     
+ pinMode(onPin, OUTPUT);    
 }
 
 void loop()
 {
+  digitalWrite(onPin, HIGH);
  if (Serial.available() > 0)
  {
   message = Serial.read();
   if (message == 'A')
    {
-   digitalWrite(LEDPin, HIGH);
+   digitalWrite(relay, HIGH);
    delay(3000);
-   digitalWrite(LEDPin, LOW);
+   digitalWrite(relay, LOW);
   }
   if (message == 'B')
   {
-   digitalWrite(LEDPin, HIGH);
+   digitalWrite(relay, HIGH);
    delay(2000);
-   digitalWrite(LEDPin, LOW);
+   digitalWrite(relay, LOW);
    delay(1000);
-   digitalWrite(LEDPin, HIGH);
+   digitalWrite(relay, HIGH);
    delay(2000);
-   digitalWrite(LEDPin, LOW);
+   digitalWrite(relay, LOW);
   }
   if (message == 'C')
   {
-   digitalWrite(LEDPin, HIGH);
+   digitalWrite(relay, HIGH);
    delay(10000);
-   digitalWrite(LEDPin, LOW);
+   digitalWrite(relay, LOW);
   }
  }
 }
