@@ -2,7 +2,7 @@
 ; SEE THE DOCUMENTATION FOR DETAILS ON CREATING INNO SETUP SCRIPT FILES!
 
 #define MyAppName "School Assistant"
-#define MyAppVersion "1.0"
+#define MyAppVersion "2.1"
 #define MyAppPublisher "Radoslav Mandev"
 #define MyAppURL "http://www.radoslav-mandev.free.bg"
 #define MyAppExeName "SchoolAssistant.exe"
@@ -11,7 +11,7 @@
 ; NOTE: The value of AppId uniquely identifies this application.
 ; Do not use the same AppId value in installers for other applications.
 ; (To generate a new GUID, click Tools | Generate GUID inside the IDE.)
-AppId={{34276AA9-5CD9-412E-A580-4DAF6359C923}
+AppId={{8672184D-A237-4DF1-B7D4-658307FADC74}
 AppName={#MyAppName}
 AppVersion={#MyAppVersion}
 ;AppVerName={#MyAppName} {#MyAppVersion}
@@ -21,45 +21,159 @@ AppSupportURL={#MyAppURL}
 AppUpdatesURL={#MyAppURL}
 DefaultDirName={pf}\{#MyAppName}
 DisableProgramGroupPage=yes
-OutputBaseFilename=setup
+OutputBaseFilename=setupSchoolAssistat
 Compression=lzma
 SolidCompression=yes
 
 [Languages]
 Name: "english"; MessagesFile: "compiler:Default.isl"
+Name: "corsican"; MessagesFile: "compiler:Languages\Corsican.isl"
 
 [Tasks]
 Name: "desktopicon"; Description: "{cm:CreateDesktopIcon}"; GroupDescription: "{cm:AdditionalIcons}"; Flags: unchecked
+Name: "quicklaunchicon"; Description: "{cm:CreateQuickLaunchIcon}"; GroupDescription: "{cm:AdditionalIcons}"; Flags: unchecked; OnlyBelowVersion: 0,6.1
 
 [Files]
-Source: "C:\Users\rado\Documents\GitHub\SchoolAssistant\SchoolAssistant\bin\Debug\SchoolAssistant.exe"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\rado\Documents\GitHub\SchoolAssistant\SchoolAssistant\bin\Debug\classes.pdf"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\rado\Documents\GitHub\SchoolAssistant\SchoolAssistant\bin\Debug\icon.ico"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\rado\Documents\GitHub\SchoolAssistant\SchoolAssistant\bin\Debug\NewProgramsClassesFilePath.txt"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\rado\Documents\GitHub\SchoolAssistant\SchoolAssistant\bin\Debug\NewProgramsTeachersFilePath.txt"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\rado\Documents\GitHub\SchoolAssistant\SchoolAssistant\bin\Debug\once.txt"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\rado\Documents\GitHub\SchoolAssistant\SchoolAssistant\bin\Debug\pmgImage.jpg"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\rado\Documents\GitHub\SchoolAssistant\SchoolAssistant\bin\Debug\SchoolAssistant.application"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\rado\Documents\GitHub\SchoolAssistant\SchoolAssistant\bin\Debug\SchoolAssistant.exe"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\rado\Documents\GitHub\SchoolAssistant\SchoolAssistant\bin\Debug\SchoolAssistant.exe.config"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\rado\Documents\GitHub\SchoolAssistant\SchoolAssistant\bin\Debug\SchoolAssistant.exe.manifest"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\rado\Documents\GitHub\SchoolAssistant\SchoolAssistant\bin\Debug\SchoolAssistant.pdb"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\rado\Documents\GitHub\SchoolAssistant\SchoolAssistant\bin\Debug\SchoolAssistant.vshost.application"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\rado\Documents\GitHub\SchoolAssistant\SchoolAssistant\bin\Debug\SchoolAssistant.vshost.exe"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\rado\Documents\GitHub\SchoolAssistant\SchoolAssistant\bin\Debug\SchoolAssistant.vshost.exe.config"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\rado\Documents\GitHub\SchoolAssistant\SchoolAssistant\bin\Debug\SchoolAssistant.vshost.exe.manifest"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\rado\Documents\GitHub\SchoolAssistant\SchoolAssistant\bin\Debug\teacherPageIDs.txt"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\rado\Documents\GitHub\SchoolAssistant\SchoolAssistant\bin\Debug\Teachers.accdb"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\rado\Documents\GitHub\SchoolAssistant\SchoolAssistant\bin\Debug\teachers.pdf"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\rado\Documents\GitHub\SchoolAssistant\SchoolAssistant\bin\Debug\twice.txt"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\rado\Documents\GitHub\SchoolAssistant\SchoolAssistant\bin\Debug\unins000.dat"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\rado\Documents\GitHub\SchoolAssistant\SchoolAssistant\bin\Debug\unins000.exe"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\rado\Documents\GitHub\SchoolAssistant\SchoolAssistant\bin\Debug\yourClass.txt"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\rado\Desktop\SchoolAssistant\SchoolAssistant\bin\Debug\SchoolAssistant.exe"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\rado\Desktop\SchoolAssistant\SchoolAssistant\bin\Debug\access.png"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\rado\Desktop\SchoolAssistant\SchoolAssistant\bin\Debug\arduino.png"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\rado\Desktop\SchoolAssistant\SchoolAssistant\bin\Debug\Bunifu_UI_v1.5.3.dll"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\rado\Desktop\SchoolAssistant\SchoolAssistant\bin\Debug\chainIcon.png"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\rado\Desktop\SchoolAssistant\SchoolAssistant\bin\Debug\CSharp.png"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\rado\Desktop\SchoolAssistant\SchoolAssistant\bin\Debug\downArrow.png"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\rado\Desktop\SchoolAssistant\SchoolAssistant\bin\Debug\hi-def.png"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\rado\Desktop\SchoolAssistant\SchoolAssistant\bin\Debug\icon.ico"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\rado\Desktop\SchoolAssistant\SchoolAssistant\bin\Debug\innosetup.png"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\rado\Desktop\SchoolAssistant\SchoolAssistant\bin\Debug\NewProgramsClassesFilePath.txt"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\rado\Desktop\SchoolAssistant\SchoolAssistant\bin\Debug\NewProgramsTeachersFilePath.txt"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\rado\Desktop\SchoolAssistant\SchoolAssistant\bin\Debug\once.txt"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\rado\Desktop\SchoolAssistant\SchoolAssistant\bin\Debug\p1.pdf"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\rado\Desktop\SchoolAssistant\SchoolAssistant\bin\Debug\p10.pdf"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\rado\Desktop\SchoolAssistant\SchoolAssistant\bin\Debug\p11.pdf"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\rado\Desktop\SchoolAssistant\SchoolAssistant\bin\Debug\p12.pdf"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\rado\Desktop\SchoolAssistant\SchoolAssistant\bin\Debug\p13.pdf"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\rado\Desktop\SchoolAssistant\SchoolAssistant\bin\Debug\p14.pdf"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\rado\Desktop\SchoolAssistant\SchoolAssistant\bin\Debug\p15.pdf"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\rado\Desktop\SchoolAssistant\SchoolAssistant\bin\Debug\p16.pdf"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\rado\Desktop\SchoolAssistant\SchoolAssistant\bin\Debug\p17.pdf"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\rado\Desktop\SchoolAssistant\SchoolAssistant\bin\Debug\p18.pdf"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\rado\Desktop\SchoolAssistant\SchoolAssistant\bin\Debug\p19.pdf"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\rado\Desktop\SchoolAssistant\SchoolAssistant\bin\Debug\p2.pdf"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\rado\Desktop\SchoolAssistant\SchoolAssistant\bin\Debug\p20.pdf"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\rado\Desktop\SchoolAssistant\SchoolAssistant\bin\Debug\p21.pdf"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\rado\Desktop\SchoolAssistant\SchoolAssistant\bin\Debug\p22.pdf"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\rado\Desktop\SchoolAssistant\SchoolAssistant\bin\Debug\p23.pdf"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\rado\Desktop\SchoolAssistant\SchoolAssistant\bin\Debug\p24.pdf"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\rado\Desktop\SchoolAssistant\SchoolAssistant\bin\Debug\p25.pdf"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\rado\Desktop\SchoolAssistant\SchoolAssistant\bin\Debug\p26.pdf"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\rado\Desktop\SchoolAssistant\SchoolAssistant\bin\Debug\p27.pdf"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\rado\Desktop\SchoolAssistant\SchoolAssistant\bin\Debug\p28.pdf"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\rado\Desktop\SchoolAssistant\SchoolAssistant\bin\Debug\p29.pdf"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\rado\Desktop\SchoolAssistant\SchoolAssistant\bin\Debug\p3.pdf"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\rado\Desktop\SchoolAssistant\SchoolAssistant\bin\Debug\p30.pdf"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\rado\Desktop\SchoolAssistant\SchoolAssistant\bin\Debug\p31.pdf"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\rado\Desktop\SchoolAssistant\SchoolAssistant\bin\Debug\p32.pdf"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\rado\Desktop\SchoolAssistant\SchoolAssistant\bin\Debug\p33.pdf"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\rado\Desktop\SchoolAssistant\SchoolAssistant\bin\Debug\p34.pdf"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\rado\Desktop\SchoolAssistant\SchoolAssistant\bin\Debug\p35.pdf"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\rado\Desktop\SchoolAssistant\SchoolAssistant\bin\Debug\p36.pdf"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\rado\Desktop\SchoolAssistant\SchoolAssistant\bin\Debug\p37.pdf"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\rado\Desktop\SchoolAssistant\SchoolAssistant\bin\Debug\p38.pdf"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\rado\Desktop\SchoolAssistant\SchoolAssistant\bin\Debug\p39.pdf"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\rado\Desktop\SchoolAssistant\SchoolAssistant\bin\Debug\p4.pdf"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\rado\Desktop\SchoolAssistant\SchoolAssistant\bin\Debug\p40.pdf"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\rado\Desktop\SchoolAssistant\SchoolAssistant\bin\Debug\p41.pdf"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\rado\Desktop\SchoolAssistant\SchoolAssistant\bin\Debug\p42.pdf"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\rado\Desktop\SchoolAssistant\SchoolAssistant\bin\Debug\p43.pdf"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\rado\Desktop\SchoolAssistant\SchoolAssistant\bin\Debug\p44.pdf"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\rado\Desktop\SchoolAssistant\SchoolAssistant\bin\Debug\p45.pdf"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\rado\Desktop\SchoolAssistant\SchoolAssistant\bin\Debug\p46.pdf"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\rado\Desktop\SchoolAssistant\SchoolAssistant\bin\Debug\p47.pdf"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\rado\Desktop\SchoolAssistant\SchoolAssistant\bin\Debug\p48.pdf"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\rado\Desktop\SchoolAssistant\SchoolAssistant\bin\Debug\p49.pdf"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\rado\Desktop\SchoolAssistant\SchoolAssistant\bin\Debug\p5.pdf"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\rado\Desktop\SchoolAssistant\SchoolAssistant\bin\Debug\p50.pdf"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\rado\Desktop\SchoolAssistant\SchoolAssistant\bin\Debug\p51.pdf"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\rado\Desktop\SchoolAssistant\SchoolAssistant\bin\Debug\p52.pdf"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\rado\Desktop\SchoolAssistant\SchoolAssistant\bin\Debug\p53.pdf"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\rado\Desktop\SchoolAssistant\SchoolAssistant\bin\Debug\p54.pdf"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\rado\Desktop\SchoolAssistant\SchoolAssistant\bin\Debug\p55.pdf"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\rado\Desktop\SchoolAssistant\SchoolAssistant\bin\Debug\p56.pdf"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\rado\Desktop\SchoolAssistant\SchoolAssistant\bin\Debug\p57.pdf"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\rado\Desktop\SchoolAssistant\SchoolAssistant\bin\Debug\p58.pdf"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\rado\Desktop\SchoolAssistant\SchoolAssistant\bin\Debug\p59.pdf"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\rado\Desktop\SchoolAssistant\SchoolAssistant\bin\Debug\p6.pdf"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\rado\Desktop\SchoolAssistant\SchoolAssistant\bin\Debug\p60.pdf"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\rado\Desktop\SchoolAssistant\SchoolAssistant\bin\Debug\p61.pdf"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\rado\Desktop\SchoolAssistant\SchoolAssistant\bin\Debug\p62.pdf"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\rado\Desktop\SchoolAssistant\SchoolAssistant\bin\Debug\p63.pdf"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\rado\Desktop\SchoolAssistant\SchoolAssistant\bin\Debug\p64.pdf"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\rado\Desktop\SchoolAssistant\SchoolAssistant\bin\Debug\p65.pdf"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\rado\Desktop\SchoolAssistant\SchoolAssistant\bin\Debug\p66.pdf"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\rado\Desktop\SchoolAssistant\SchoolAssistant\bin\Debug\p67.pdf"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\rado\Desktop\SchoolAssistant\SchoolAssistant\bin\Debug\p68.pdf"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\rado\Desktop\SchoolAssistant\SchoolAssistant\bin\Debug\p7.pdf"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\rado\Desktop\SchoolAssistant\SchoolAssistant\bin\Debug\p8.pdf"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\rado\Desktop\SchoolAssistant\SchoolAssistant\bin\Debug\p9.pdf"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\rado\Desktop\SchoolAssistant\SchoolAssistant\bin\Debug\PaintDotNet_3.png"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\rado\Desktop\SchoolAssistant\SchoolAssistant\bin\Debug\pc1.pdf"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\rado\Desktop\SchoolAssistant\SchoolAssistant\bin\Debug\pc10.pdf"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\rado\Desktop\SchoolAssistant\SchoolAssistant\bin\Debug\pc11.pdf"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\rado\Desktop\SchoolAssistant\SchoolAssistant\bin\Debug\pc12.pdf"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\rado\Desktop\SchoolAssistant\SchoolAssistant\bin\Debug\pc13.pdf"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\rado\Desktop\SchoolAssistant\SchoolAssistant\bin\Debug\pc14.pdf"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\rado\Desktop\SchoolAssistant\SchoolAssistant\bin\Debug\pc15.pdf"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\rado\Desktop\SchoolAssistant\SchoolAssistant\bin\Debug\pc16.pdf"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\rado\Desktop\SchoolAssistant\SchoolAssistant\bin\Debug\pc17.pdf"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\rado\Desktop\SchoolAssistant\SchoolAssistant\bin\Debug\pc18.pdf"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\rado\Desktop\SchoolAssistant\SchoolAssistant\bin\Debug\pc19.pdf"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\rado\Desktop\SchoolAssistant\SchoolAssistant\bin\Debug\pc2.pdf"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\rado\Desktop\SchoolAssistant\SchoolAssistant\bin\Debug\pc20.pdf"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\rado\Desktop\SchoolAssistant\SchoolAssistant\bin\Debug\pc21.pdf"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\rado\Desktop\SchoolAssistant\SchoolAssistant\bin\Debug\pc22.pdf"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\rado\Desktop\SchoolAssistant\SchoolAssistant\bin\Debug\pc23.pdf"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\rado\Desktop\SchoolAssistant\SchoolAssistant\bin\Debug\pc24.pdf"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\rado\Desktop\SchoolAssistant\SchoolAssistant\bin\Debug\pc25.pdf"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\rado\Desktop\SchoolAssistant\SchoolAssistant\bin\Debug\pc26.pdf"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\rado\Desktop\SchoolAssistant\SchoolAssistant\bin\Debug\pc27.pdf"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\rado\Desktop\SchoolAssistant\SchoolAssistant\bin\Debug\pc28.pdf"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\rado\Desktop\SchoolAssistant\SchoolAssistant\bin\Debug\pc29.pdf"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\rado\Desktop\SchoolAssistant\SchoolAssistant\bin\Debug\pc3.pdf"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\rado\Desktop\SchoolAssistant\SchoolAssistant\bin\Debug\pc30.pdf"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\rado\Desktop\SchoolAssistant\SchoolAssistant\bin\Debug\pc31.pdf"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\rado\Desktop\SchoolAssistant\SchoolAssistant\bin\Debug\pc32.pdf"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\rado\Desktop\SchoolAssistant\SchoolAssistant\bin\Debug\pc33.pdf"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\rado\Desktop\SchoolAssistant\SchoolAssistant\bin\Debug\pc34.pdf"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\rado\Desktop\SchoolAssistant\SchoolAssistant\bin\Debug\pc35.pdf"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\rado\Desktop\SchoolAssistant\SchoolAssistant\bin\Debug\pc36.pdf"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\rado\Desktop\SchoolAssistant\SchoolAssistant\bin\Debug\pc4.pdf"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\rado\Desktop\SchoolAssistant\SchoolAssistant\bin\Debug\pc5.pdf"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\rado\Desktop\SchoolAssistant\SchoolAssistant\bin\Debug\pc6.pdf"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\rado\Desktop\SchoolAssistant\SchoolAssistant\bin\Debug\pc7.pdf"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\rado\Desktop\SchoolAssistant\SchoolAssistant\bin\Debug\pc8.pdf"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\rado\Desktop\SchoolAssistant\SchoolAssistant\bin\Debug\pc9.pdf"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\rado\Desktop\SchoolAssistant\SchoolAssistant\bin\Debug\pmgImage.jpg"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\rado\Desktop\SchoolAssistant\SchoolAssistant\bin\Debug\SchoolAssistant.exe"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\rado\Desktop\SchoolAssistant\SchoolAssistant\bin\Debug\SchoolAssistant.exe.config"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\rado\Desktop\SchoolAssistant\SchoolAssistant\bin\Debug\SchoolAssistant.pdb"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\rado\Desktop\SchoolAssistant\SchoolAssistant\bin\Debug\SchoolAssistant.vshost.exe"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\rado\Desktop\SchoolAssistant\SchoolAssistant\bin\Debug\SchoolAssistant.vshost.exe.config"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\rado\Desktop\SchoolAssistant\SchoolAssistant\bin\Debug\SchoolAssistant.vshost.exe.manifest"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\rado\Desktop\SchoolAssistant\SchoolAssistant\bin\Debug\sql.png"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\rado\Desktop\SchoolAssistant\SchoolAssistant\bin\Debug\teacherPageIDs.txt"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\rado\Desktop\SchoolAssistant\SchoolAssistant\bin\Debug\Teachers.accdb"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\rado\Desktop\SchoolAssistant\SchoolAssistant\bin\Debug\twice.txt"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\rado\Desktop\SchoolAssistant\SchoolAssistant\bin\Debug\upArrow.png"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\rado\Desktop\SchoolAssistant\SchoolAssistant\bin\Debug\visstudio.png"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\rado\Desktop\SchoolAssistant\SchoolAssistant\bin\Debug\whiteCrossedBell.png"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\rado\Desktop\SchoolAssistant\SchoolAssistant\bin\Debug\whiteTick.png"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\rado\Desktop\SchoolAssistant\SchoolAssistant\bin\Debug\whiteX.png"; DestDir: "{app}"; Flags: ignoreversion
 ; NOTE: Don't use "Flags: ignoreversion" on any shared system files
 
 [Icons]
 Name: "{commonprograms}\{#MyAppName}"; Filename: "{app}\{#MyAppExeName}"
 Name: "{commondesktop}\{#MyAppName}"; Filename: "{app}\{#MyAppExeName}"; Tasks: desktopicon
+Name: "{userappdata}\Microsoft\Internet Explorer\Quick Launch\{#MyAppName}"; Filename: "{app}\{#MyAppExeName}"; Tasks: quicklaunchicon
 
 [Run]
 Filename: "{app}\{#MyAppExeName}"; Description: "{cm:LaunchProgram,{#StringChange(MyAppName, '&', '&&')}}"; Flags: nowait postinstall skipifsilent
