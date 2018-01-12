@@ -1,0 +1,223 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="logoPictureBox.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+</value>
+  </data>
+  <data name="infoLabel.Text" xml:space="preserve">
+    <value>В страницата електронен звънец ще видите:
+-  Разписание на часовете 
+-  Падащо меню за серийните изходи ( какво е това? ) 
+-  Бутони за включване и изключване на звънеца
+-  Текст оказващ състоянието на звънеца ( дали е включен или изключен) 
+-  Бутон за аларма ( звъни 3 минути непрекъснато )
+в менюто корекции ще намерите следните възможности 
+- ‎учител 
+- ‎тук можете да създадете учител давайки му следните елементи - 
+име предмет консултации сип и файл с програмата или да премахнете 
+учител и всички негови параметри от падащото меню. При всяка промяна
+приложението ще се рестартира
+
+- сип
+- ‎тук можете да промените или премахнете часовете за сип на всеки 
+учител - при избиране на учител чрез падащото меню ще ви се покажат 
+текущите сип часове на избрания преподавател. За смяната им въведете 
+нови отдолу. При промяна приложението ще се рестартира.
+
+- консултации - ‎тук можете да промените или премахнете часовете за 
+консултации на всеки учител - при избиране на учител чрез падащото меню 
+ще ви се покажат текущите с часове за консултация на избрания преподавател.
+ За смяната им въведете нови отдолу. При промяна приложението ще се рестартира.
+
+Класен - тук може да промените класния ръководител на всеки клас. 
+Изберете от падащото меню клас и ще ви се покаже текущия класен ръководител. 
+За промяна изберете друг от падащото меню и при натискане на бутона 
+приложението ще се рестартира, запазвайки промените
+
+</value>
+  </data>
+</root>
